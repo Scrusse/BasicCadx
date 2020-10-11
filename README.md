@@ -55,6 +55,8 @@ The second assignment is to make the mount. It is a square peice with 4 smaller 
 
 ### Reflection
 
+I very much enjoyed making this peice. It was simple and didn't require much knowlage. It was much like the previous peice, the base, because it had the 4 holes around the outside. I did do something different this time though, I didn't do the linear pattern after extruding the main part. Instead, I used a linear pattern in the sketch.
+
 ---
 
 
@@ -62,11 +64,17 @@ The second assignment is to make the mount. It is a square peice with 4 smaller 
 
 ### Description
 
+A base circle with two reectangles extruded out of it and on the other side one cylinder extruded. Filleted edges.
+
 ### Evidence
+
+[The Fork in Onshape](https://cad.onshape.com/documents/e2135307d73952fcf7ad0bdd/w/107b47cd6a7cb28dcafceef6/e/8f92bf454d3878bb6e0c97c8)
 
 ### Image
 
 ### Reflection
+
+I learned how to fillet in this part.
 
 ---
 
@@ -75,11 +83,17 @@ The second assignment is to make the mount. It is a square peice with 4 smaller 
 
 ### Description
 
+A symmetric trapezoid revolved in to a 3d shape.
+
 ### Evidence
+
+[The Tire in Onshape](https://cad.onshape.com/documents/42cc059c0af575ec245c3ade/w/e07ac3e1d3171ce249043c0e/e/78eccdfa95e7abde0b3d4880)
 
 ### Image
 
 ### Reflection
+
+I learned how to revolve a sketch into a solid circular 3d shape.
 
 ---
 
@@ -88,11 +102,17 @@ The second assignment is to make the mount. It is a square peice with 4 smaller 
 
 ### Description
 
+Similar to the tire, I started out with sketching one shape and then revolving it around into the wheel. The shape looked similar to an "I.' After revolving it, I cut holes into the side and added a bearing.
+
 ### Evidence
+
+[The Wheel in Onshape](https://cad.onshape.com/documents/ce403b6333b464c5854d3454/w/20a942f6a05a0be872aa5dc2/e/4608a7c5cfb338e1da83d3ba)
 
 ### Image
 
 ### Reflection
+
+I learned how to put two parts into one document. I also got more practice with revolving and remove extruding.
 
 ---
 
@@ -101,10 +121,16 @@ The second assignment is to make the mount. It is a square peice with 4 smaller 
 
 ### Description
 
+I extruded a circle into a cylinder and then added a small rectangular divot into one of the ends. Then I made another part (the collar) and added that to the side with the divot. The collar also had a hole going through one side.
+
 ### Evidence
+
+[The Axle/Collar/Bearings in Onshape](https://cad.onshape.com/documents/1b17bfcd9bbcebd8be2ae8d8/w/36eea3232a8a6b9b38aba88b/e/6474f39e006531d639bb57e7)
 
 ### Image
 
 ### Reflection
+
+I got to work more on everything and practice.
 
 ---
