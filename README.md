@@ -134,3 +134,17 @@ I extruded a circle into a cylinder and then added a small rectangular divot int
 I got to work more on everything and practice.
 
 ---
+
+## Dorthy's Dowel Pins
+
+### Description
+
+I made different widths and lengths of dowel pins using the chart stuff in Onshape.
+
+### Evidence
+
+[The Dorthy's Dowel Pins in Onshape](https://cvilleschools.onshape.com/documents/489abc522604910137bdac21/w/f02e7ecee5dd9fb1dc2737f0/e/4175451c12ee256d8cf99d1a)
+
+### Reflection
+
+I was very intrigued about learning more in Onshape. I thought that using the charts to make different combinations was a very smart way of shortening the time spent creating objects.
