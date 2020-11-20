@@ -169,7 +169,6 @@ void setup() {
 
 
 void loop() {
-  // set the brightness of pin 9:
   analogWrite(led, brightness);
 
   brightness = brightness + fadeAmount;
