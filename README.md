@@ -148,3 +148,38 @@ I made different widths and lengths of dowel pins using the chart stuff in Onsha
 ### Reflection
 
 I was very intrigued about learning more in Onshape. I thought that using the charts to make different combinations was a very smart way of shortening the time spent creating objects.
+
+---
+
+## Finite LED Blinker
+
+### Description
+
+I made a LED light up by fading using arduino code.
+
+### Evidence
+
+int led = 9;           
+int brightness = 0;    
+int fadeAmount = 5;    
+
+void setup() {
+  pinMode(led, OUTPUT);
+}
+
+
+void loop() {
+  // set the brightness of pin 9:
+  analogWrite(led, brightness);
+
+  brightness = brightness + fadeAmount;
+
+  if (brightness <= 0 || brightness >= 255) {
+    fadeAmount = -fadeAmount;
+  }
+  delay(30);
+}
+
+### Reflection
+
+I learned how to make values change incrementally.
