@@ -182,3 +182,71 @@ void loop() {
 ### Reflection
 
 I learned how to make values change incrementally.
+
+---
+
+## Ultrasonic-Sensor-Controlled Servo Motor
+
+### Description
+
+I programmed an arduino so that the closer something gets to an ultrasonic sensor, the faster a servo motor spins. I used functions as much as I could to simplify the code.
+
+### Evidence 
+
+#include <Servo.h>
+Servo myservo;
+/* Example code for HC-SR04 ultrasonic distance sensor with Arduino. No library required. More info: https://www.makerguides.com */
+// Define Trig and Echo pin:
+#define trigPin 2
+#define echoPin 3
+// Define variables:
+int distanceValue;
+long duration;
+int distance;
+void setup() {
+  // Define inputs and outputs:
+  pinMode(trigPin, OUTPUT);
+  pinMode(echoPin, INPUT);
+  //Begin Serial communication at a baudrate of 9600:
+  Serial.begin(9600);
+  myservo.attach(9);
+}
+void loop() {
+distanceValue = getDistance();
+distanceValue = convertSpeed(distanceValue);
+spinServo(distanceValue);
+}
+
+int getDistance() {
+    // Clear the trigPin by setting it LOW:
+  digitalWrite(trigPin, LOW);
+  delayMicroseconds(5);
+  // Trigger the sensor by setting the trigPin high for 10 microseconds:
+  digitalWrite(trigPin, HIGH);
+  delayMicroseconds(10);
+  digitalWrite(trigPin, LOW);
+  // Read the echoPin, pulseIn() returns the duration (length of the pulse) in microseconds:
+  duration = pulseIn(echoPin, HIGH);
+  // Calculate the distance:
+  distance = duration * 0.034 / 2;
+  // Print the distance on the Serial Monitor (Ctrl+Shift+M):
+  delay(50);
+  return distance;
+ }
+
+ void spinServo(int rotationSpeed) {
+  myservo.write(rotationSpeed);
+ }
+
+ int convertSpeed(int rawDistance) {
+  rawDistance = rawDistance * 3.6;
+  rawDistance = 180 - rawDistance;
+  if(rawDistance < 90) {
+    rawDistance = 90;
+  }
+  return rawDistance;
+ }
+
+ ### Reflection
+ 
+ I learned about and got practice with functions. I learned how to plug in a servo motor and ultrasonic sensor to an arduino and make them function properly.
